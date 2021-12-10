@@ -6,3 +6,5 @@ This is a preprocessing pipeline written in Python primarily using the MNE-Pytho
 
 ### Current Status
 I am currently stuck trying to run dipole fitting to visualize the ICs. 
+
+Needs to be cleaned up and refactored.
