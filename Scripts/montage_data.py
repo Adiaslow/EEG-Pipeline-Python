@@ -1,7 +1,7 @@
 from mne.channels import compute_native_head_t, read_custom_montage, make_standard_montage
 
 
-def montage_data(raw, fname_mon, ch_names):
+def montage_data(raw, fname_mon):
 
     dig_montage = read_custom_montage(fname_mon, head_size=0.095, coord_frame="head")
     #             read_custom_montage(fname, head_size=0.095, coord_frame=None)
@@ -17,6 +17,7 @@ def montage_data(raw, fname_mon, ch_names):
     trans = compute_native_head_t(dig_montage)
 
     return dig_montage, trans
+
 
 def name_channels(raw, ch_names):
 
