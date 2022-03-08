@@ -4,8 +4,11 @@ By Adam Murray
 ### Description
 This is a preprocessing pipeline written in Python primarily using the MNE-Python package.
 
-### Current Status
-- I am currently stuck trying to run dipole fitting to visualize the ICs. 
-- Needs to be cleaned up and refactored.
+I plan to work on custom BSS alogirthm in the future. Currently researching existing models and comparing their structures.
 
-- **On hold until I figure out an EEGLAB IC Label-like solution for ICA.**
+### Current Status
+- Rewriting script with high modularity.
+- Working on inverser operator.
+
+- **On hold until I figure out an EEGLAB IC Label-like solution for ICA.** 
+(03/08/2022 looks like an IC_Label port is on the way!! https://github.com/jacobf18/iclabel-python)
